@@ -34,6 +34,7 @@ li {
 .upper {
     display: flex;
     justify-content: space-between;
+
 }
 
 .stones {
@@ -44,9 +45,25 @@ width: auto;
 padding-right: 15px;
 }
 
+.icon-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 30px;
+}
 .icons {
-    height: 150px;
-    width: 150px;}
+height: 150px;
+width: 150px;
+border-style: solid;
+border-color: #3882f6;
+border-width: 2px;
+border-radius: 10px;
+}
+.img-desc {
+max-width: 150px;
+height: auto;
+text-align: center;
+}
 
 h1 {
 font-size: 48px;
@@ -68,3 +85,44 @@ button {
     font-weight: bold;
     font-size: 18px;
 }
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.testimonial {
+    background-color: #e5e7eb; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.testimonial-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    max-width: 400px;
+}
+.signature {
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+}
+.cta {
+    background-color: #3882f6;
+    justify-content: center;
+    display: flex;
+    margin: 25px 60px;
+    flex-direction: row;
+    gap: 15px;
+}
+.cta-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.cta-title {}
